@@ -1,3 +1,10 @@
 #Rupaksh {
     font-family: 'Lato', sans-serif;
 }
+
+
+/* ---LAYOUT CONTAINERS--- */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
