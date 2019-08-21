@@ -37,19 +37,18 @@ a {
 
 .main-nav li {
     text-align: center;
-    background: #fff;
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
 .main-nav a {
     font-size: 1em;
-    color: #3acec2;
+    color: #fff;
     text-transform: uppercase;
 }
 
 .main-nav a:hover {
-    color: #093a58;
+    color: #75c9fd;
 }
 
 .Rupaksh a,
@@ -70,9 +69,6 @@ a {
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    align-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 
@@ -105,5 +101,8 @@ a {
     .main-nav li,
     .Rupaksh {
         display: inline-block;
+    }
+    .main-nav li {
+        margin-right: 12px;
     }
 }
