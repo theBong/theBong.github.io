@@ -87,6 +87,10 @@ a {
     margin-bottom: 30px;
 }
 
+.introbar {
+    display: inline;
+}
+
 
 /* ================================= 
   Media Queries
@@ -104,5 +108,19 @@ a {
     }
     .main-nav li {
         margin-right: 12px;
+    }
+    .intro_image img {
+        align-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .introbar {
+        float: left;
+        width: 30%;
+        border: 1px red;
+    }
+    .infobar {
+        float: right;
+        width: 60%;
+        border: 1px red;
     }
 }
