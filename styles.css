@@ -52,6 +52,12 @@ a {
     color: #093a58;
 }
 
+.Rupaksh a,
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+}
+
 
 /* ================================= 
   Base Layout Styles
@@ -78,6 +84,7 @@ a {
 }
 
 .main-header {
+    text-align: center;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     background: #0194fc;
@@ -96,7 +103,6 @@ a {
         margin: 0 auto;
     }
     .main-nav li,
-    .main-nav,
     .Rupaksh {
         display: inline-block;
     }
