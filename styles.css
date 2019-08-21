@@ -64,7 +64,9 @@ a {
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    align-content: center
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -96,6 +98,6 @@ a {
     .main-nav li,
     .main-nav,
     .Rupaksh {
-        display: inline;
+        display: inline-block;
     }
 }
