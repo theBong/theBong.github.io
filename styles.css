@@ -116,19 +116,14 @@ a {
     .introbar {
         float: left;
         width: 30%;
-        border: 1px red;
     }
     .infobar {
         float: right;
         width: 60%;
-        border: 1px red;
     }
     .clearfix::after {
         content: "";
         display: table;
         clear: both;
-    }
-    .col {
-        border: 10px red;
     }
 }
