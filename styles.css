@@ -96,7 +96,7 @@ a {
   Media Queries
 ==================================== */
 
-@media all and (min-width:769px) {
+@media all and (min-width:1000px) {
     .wrapper {
         width: 80%;
         max-width: 1200px;
@@ -122,5 +122,13 @@ a {
         float: right;
         width: 60%;
         border: 1px red;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col {
+        border: 10px red;
     }
 }
