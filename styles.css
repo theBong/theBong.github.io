@@ -1,0 +1,41 @@
+/* Base Styles */
+
+body {
+    font-size: 16px;
+}
+
+.root-container {
+    display: inline-flex;
+    /* or inline-flex */
+    flex-flow: row wrap;
+    /* flex-flow
+   * flex-direction: row;
+   * flex-wrap: wrap;*/
+}
+
+/* Common Container Config */
+
+.base-container {
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+}
+
+/* Intro Container */
+
+.profilephoto {
+    width: 6rem;
+    height: auto;
+    transform: rotate(90deg);
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media all and (min-width:786px) {
+    .base-container {
+        width: 50%;
+    }
+}
